@@ -4,8 +4,6 @@ author: "Sergio Partida"
 date: "April 25, 2018"
 output: slidy_presentation
 ---
-
-<!-- Limit image width and height -->
 <style type='text/css'>
 img {
     max-height: 560px;
@@ -20,10 +18,6 @@ $(function() {
     $("p:has(img)").addClass('centered');
 });
 </script>
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
 
 ## Overview
 This shiny app was built for the *Developing Data Products* Course for the online John Hopkins *Data Specialization*.
